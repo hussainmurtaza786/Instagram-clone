@@ -1,3 +1,5 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500&family=Martel+Sans:wght@600&family=Playball&family=Roboto:wght@900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -29,15 +31,17 @@ html {
   top: 0;
   display: flex;
   /* justify-content: center; */
-  align-self: center;
-  border: 1px solid grey;
-  width: 15vw;
-  padding: 0px 30px;
+  /* align-self: center; */
+  border: 1px solid rgb(231, 231, 231);
+  width: 13vw;
+  padding: 0px 20px;
   height: 100vh;
 }
 #home-logo {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+
   display: flex;
-  margin: 18px 8px;
+  margin: 18px 0;
   cursor: pointer;
   /* background-color: rebeccapurple; */
 }
@@ -119,92 +123,98 @@ s
 .circle1 {
   margin: 2px 5px;
   /* padding: 4px; */
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border: 2px solid grey;
   border-radius: 250px;
 }
 .circle1 img {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border-radius: 250px;
 }
 .circle2 {
   /* padding: 4px; */
   margin: 2px 5px;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border: 2px solid grey;
   border-radius: 250px;
 }
 .circle2 img {
-  width: 70px;
-  height: 70px;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
   border-radius: 250px;
 }
 .circle3 {
   /* padding: 4px; */
   margin: 2px 5px;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border: 2px solid grey;
   border-radius: 250px;
 }
 .circle3 img {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  cursor: pointer;
+  height: 60px;
   border-radius: 250px;
 }
 .circle4 {
   /* padding: 4px; */
   margin: 2px 5px;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border: 2px solid grey;
   border-radius: 250px;
 }
 .circle4 img {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
   border-radius: 250px;
 }
 .circle5 {
   /* padding: 4px; */
   margin: 2px 5px;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border: 2px solid grey;
   border-radius: 250px;
 }
 .circle5 img {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
   border-radius: 250px;
 }
 .circle6 {
   /* padding: 4px; */
   margin: 2px 5px;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border: 2px solid grey;
   border-radius: 250px;
 }
 .circle6 img {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  cursor: pointer;
+  height: 60px;
   border-radius: 250px;
 }
 .circle7 {
   /* padding: 4px; */
   margin: 2px 5px;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border: 2px solid grey;
   border-radius: 250px;
 }
 .circle7 img {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  cursor: pointer;
+  height: 60px;
   border-radius: 250px;
 }
 
@@ -225,6 +235,7 @@ s
   margin-top: 10px;
 }
 .profile-right img {
+  cursor: pointer;
   width: 60px;
   height: 60px;
   border-radius: 250px;
