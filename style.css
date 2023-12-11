@@ -61,7 +61,18 @@ html {
   padding: 4px 12px;
   display: flex;
   cursor: pointer;
+  /* background-color: blue; */
+  /* width: 180px; */
+  /* height: 40px; */
 
+}
+
+#home-logo:hover {
+  background-color: rgb(22, 22, 22);
+  border-radius: 12px;
+  width: 160px;
+  /* height: 40px; */
+  /* padding: 10px; */
 }
 
 .text {
@@ -77,6 +88,14 @@ html {
 
 }
 
+#search-logo:hover {
+  background-color: rgb(22, 22, 22);
+  border-radius: 12px;
+  width: 160px;
+  /* height: 40px; */
+  /* padding: 10px; */
+}
+
 #search-logo svg {
   height: 23px;
   width: 26px;
@@ -90,13 +109,27 @@ html {
 
 }
 
+#explore-logo:hover {
+  background-color: rgb(22, 22, 22);
+  border-radius: 12px;
+  width: 160px;
+  /* height: 40px; */
+  /* padding: 10px; */
+}
+
 #reels-logo {
   display: flex;
   cursor: pointer;
   margin: 25px 0px;
   padding: 4px 12px;
+}
 
-  /* background-color: orange; */
+#reels-logo:hover {
+  background-color: rgb(22, 22, 22);
+  border-radius: 12px;
+  width: 160px;
+  /* height: 40px; */
+  /* padding: 10px; */
 }
 
 #messages-logo {
@@ -108,6 +141,14 @@ html {
   /* background-color: yellow; */
 }
 
+#messages-logo:hover {
+  background-color: rgb(22, 22, 22);
+  border-radius: 12px;
+  width: 160px;
+  /* height: 40px; */
+  /* padding: 10px; */
+}
+
 #notification-logo {
   display: flex;
   cursor: pointer;
@@ -115,6 +156,14 @@ html {
   padding: 4px 12px;
 
   /* background-color: purple; */
+}
+
+#notification-logo:hover {
+  background-color: rgb(22, 22, 22);
+  border-radius: 12px;
+  width: 160px;
+  /* height: 40px; */
+  /* padding: 10px; */
 }
 
 #create-logo {
@@ -126,6 +175,14 @@ html {
   /* background-color: chartreuse; */
 }
 
+#create-logo:hover {
+  background-color: rgb(22, 22, 22);
+  border-radius: 12px;
+  width: 160px;
+  /* height: 40px; */
+  /* padding: 10px; */
+}
+
 #profile-logo {
   display: flex;
   cursor: pointer;
@@ -133,6 +190,14 @@ html {
   padding: 4px 12px;
 
   /* background-color: blue; */
+}
+
+#profile-logo:hover {
+  background-color: rgb(22, 22, 22);
+  border-radius: 12px;
+  width: 160px;
+  /* height: 40px; */
+  /* padding: 10px; */
 }
 
 #profile-logo svg {
@@ -146,6 +211,14 @@ html {
   padding: 4px 12px;
 
   margin: 25px 0px;
+}
+
+#more-logo:hover {
+  background-color: rgb(22, 22, 22);
+  border-radius: 12px;
+  width: 160px;
+  /* height: 40px; */
+  /* padding: 10px; */
 }
 
 
@@ -213,7 +286,7 @@ html {
 
 #dots {
   display: flex;
-  margin-top: 40px;
+  margin-top: 20px;
   /* padding: 4px 8px ; */
 }
 
@@ -222,9 +295,16 @@ html {
   height: 2px;
   border-radius: 250px;
   border: 2px solid white;
-  background-color: white;
+  /* background-color: white; */
   margin: 1px;
 
+}
+
+
+#r-image-icons {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: center;
 }
 
 .post-profile-image img {
@@ -234,6 +314,68 @@ html {
   border-radius: 250px;
 }
 
+.r-image-mess-heart-etc {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 100px;
+  padding: 10px 20px;
+
+}
+
+.hidden-checkbox {
+  display: none;
+}
+
+.heart-label {
+  cursor: pointer;
+}
+
+.hidden-checkbox:checked + .heart-label .heart-path {
+  animation: fillHeart 0.5s forwards;
+}
+
+@keyframes fillHeart {
+  to {
+    fill: red; 
+  }
+}
+
+
+
+.heart:active path{
+  fill: red;
+}
+
+
+.r-heart:hover {
+  color: grey;
+
+}
+
+.r-message {
+  padding: 2px 8px;
+}
+
+.r-message:hover {
+  color: grey;
+}
+
+.r-sharepost {
+  padding: 2px 8px;
+}
+
+.r-sharepost:hover {
+  color: grey;
+}
+
+.r-savepost {
+  margin-top: 8px;
+  margin-left: 300px;
+}
+
+.r-savepost:hover {
+  color: grey;
+}
 
 /* circle end  */
 
@@ -280,6 +422,22 @@ html {
   cursor: pointer;
 }
 
+.switch :hover {
+  color: grey;
+}
+
+.follow {
+  /* display: flex; */
+  margin-left: 50px;
+  margin-top: 22px;
+  color: blue;
+  cursor: pointer;
+}
+
+.follow :hover {
+  color: grey;
+}
+
 .suggested {
   display: flex;
   justify-content: space-between;
@@ -289,6 +447,7 @@ html {
 .r-h5 {
   font-size: 15px;
   color: grey;
+
 }
 
 .r-seeall {
@@ -298,10 +457,19 @@ html {
   cursor: pointer;
 }
 
+.r-seeall:hover {
+  color: grey;
+}
 
 
 .bottom {
   margin-top: 10px;
+}
+
+
+
+[class="dot-3"] {
+  /* border: 2px solid r; */
 }
 
 /* right side work end  */
