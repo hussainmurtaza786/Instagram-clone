@@ -228,11 +228,27 @@ html {
 .circle-story {
   display: flex;
   justify-content: end;
+  position: relative;
   /* padding: 10px 20rem; */
   /* width: 100%; */
   margin: 15px;
   margin-right: 30px;
   /* overflow: hidden; */
+  animation: hussain;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+}
+
+@keyframes hussain {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+
 }
 
 .circle {
@@ -330,19 +346,19 @@ html {
   cursor: pointer;
 }
 
-.hidden-checkbox:checked + .heart-label .heart-path {
+.hidden-checkbox:checked+.heart-label .heart-path {
   animation: fillHeart 0.5s forwards;
 }
 
 @keyframes fillHeart {
   to {
-    fill: red; 
+    fill: red;
   }
 }
 
 
 
-.heart:active path{
+.heart:active path {
   fill: red;
 }
 
