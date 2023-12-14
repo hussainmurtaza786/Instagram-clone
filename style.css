@@ -6,11 +6,6 @@
   box-sizing: border-box;
 }
 
-body,
-html {
-  /* background-color: black; */
-  /* color: white; */
-}
 
 /* Instagram main body  */
 
@@ -77,6 +72,11 @@ html {
 
 .text {
   padding: 0px 8px
+}
+
+.home1 {
+  text-decoration: none;
+  color: white;
 }
 
 #search-logo {
@@ -284,7 +284,7 @@ html {
   margin-top: 50px;
   display: flex;
   justify-content: space-around;
-  margin-left: 120px;
+  margin-left: 170px;
   margin-bottom: 10px;
 }
 
@@ -304,6 +304,7 @@ html {
   display: flex;
   margin-top: 20px;
   /* padding: 4px 8px ; */
+  margin-right: 40px;
 }
 
 .dot-3 {
@@ -467,7 +468,7 @@ html {
 }
 
 .r-seeall {
-  margin-right: 30px;
+  margin-right: 65px;
   /* border: 2px solid red; */
   font-size: 13px;
   cursor: pointer;
@@ -484,8 +485,6 @@ html {
 
 
 
-[class="dot-3"] {
-  /* border: 2px solid r; */
-}
+
 
 /* right side work end  */
